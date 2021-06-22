@@ -1,0 +1,34 @@
+.account {
+  display: flex;
+  border-bottom: 1px solid rgba(232, 232, 2321);
+  padding-bottom: 12px;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.accountdetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.accountname h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.accountbalance {
+  color: black;
+  padding: 7px 0;
+}
+
+.accountcreated_at {
+  font-weight: 100;
+}
+
+.accountcreated_at :nth-child(1) {
+  padding-right: 14px;
+}
+
+.accountcreated_at :nth-child(2) {
+  padding-right: 3px;
+}
